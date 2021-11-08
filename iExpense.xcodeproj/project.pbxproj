@@ -7,24 +7,30 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		7D24E70027361C45009A3AB3 /* iExpenseApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D24E6FF27361C45009A3AB3 /* iExpenseApp.swift */; };
-		7D24E70227361C45009A3AB3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D24E70127361C45009A3AB3 /* ContentView.swift */; };
 		7D24E70427361C46009A3AB3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7D24E70327361C46009A3AB3 /* Assets.xcassets */; };
 		7D24E70727361C46009A3AB3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7D24E70627361C46009A3AB3 /* Preview Assets.xcassets */; };
-		7D24E70E27374A62009A3AB3 /* ExpenseItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D24E70D27374A62009A3AB3 /* ExpenseItem.swift */; };
-		7D24E71027374B06009A3AB3 /* Expenses.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D24E70F27374B06009A3AB3 /* Expenses.swift */; };
-		7D24E71227375263009A3AB3 /* AddView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D24E71127375263009A3AB3 /* AddView.swift */; };
+		7D69C70C2738A2F40042283D /* ExpenseItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D69C7042738A2F40042283D /* ExpenseItem.swift */; };
+		7D69C70D2738A2F40042283D /* AddView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D69C7052738A2F40042283D /* AddView.swift */; };
+		7D69C70E2738A2F40042283D /* Expenses.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D69C7062738A2F40042283D /* Expenses.swift */; };
+		7D69C70F2738A2F40042283D /* ExpenseSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D69C7072738A2F40042283D /* ExpenseSection.swift */; };
+		7D69C7102738A2F40042283D /* iExpenseApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D69C7082738A2F40042283D /* iExpenseApp.swift */; };
+		7D69C7112738A2F40042283D /* FormatStyle-LocalCurrency.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D69C7092738A2F40042283D /* FormatStyle-LocalCurrency.swift */; };
+		7D69C7122738A2F40042283D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D69C70A2738A2F40042283D /* ContentView.swift */; };
+		7D69C7132738A2F40042283D /* View-ExpenseStyling.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D69C70B2738A2F40042283D /* View-ExpenseStyling.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		7D24E6FC27361C45009A3AB3 /* iExpense.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iExpense.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		7D24E6FF27361C45009A3AB3 /* iExpenseApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iExpenseApp.swift; sourceTree = "<group>"; };
-		7D24E70127361C45009A3AB3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		7D24E70327361C46009A3AB3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7D24E70627361C46009A3AB3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		7D24E70D27374A62009A3AB3 /* ExpenseItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpenseItem.swift; sourceTree = "<group>"; };
-		7D24E70F27374B06009A3AB3 /* Expenses.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Expenses.swift; sourceTree = "<group>"; };
-		7D24E71127375263009A3AB3 /* AddView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddView.swift; sourceTree = "<group>"; };
+		7D69C7042738A2F40042283D /* ExpenseItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExpenseItem.swift; sourceTree = "<group>"; };
+		7D69C7052738A2F40042283D /* AddView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddView.swift; sourceTree = "<group>"; };
+		7D69C7062738A2F40042283D /* Expenses.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Expenses.swift; sourceTree = "<group>"; };
+		7D69C7072738A2F40042283D /* ExpenseSection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExpenseSection.swift; sourceTree = "<group>"; };
+		7D69C7082738A2F40042283D /* iExpenseApp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = iExpenseApp.swift; sourceTree = "<group>"; };
+		7D69C7092738A2F40042283D /* FormatStyle-LocalCurrency.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "FormatStyle-LocalCurrency.swift"; sourceTree = "<group>"; };
+		7D69C70A2738A2F40042283D /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		7D69C70B2738A2F40042283D /* View-ExpenseStyling.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "View-ExpenseStyling.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,11 +63,14 @@
 		7D24E6FE27361C45009A3AB3 /* iExpense */ = {
 			isa = PBXGroup;
 			children = (
-				7D24E6FF27361C45009A3AB3 /* iExpenseApp.swift */,
-				7D24E70127361C45009A3AB3 /* ContentView.swift */,
-				7D24E70D27374A62009A3AB3 /* ExpenseItem.swift */,
-				7D24E70F27374B06009A3AB3 /* Expenses.swift */,
-				7D24E71127375263009A3AB3 /* AddView.swift */,
+				7D69C7052738A2F40042283D /* AddView.swift */,
+				7D69C70A2738A2F40042283D /* ContentView.swift */,
+				7D69C7042738A2F40042283D /* ExpenseItem.swift */,
+				7D69C7062738A2F40042283D /* Expenses.swift */,
+				7D69C7072738A2F40042283D /* ExpenseSection.swift */,
+				7D69C7092738A2F40042283D /* FormatStyle-LocalCurrency.swift */,
+				7D69C7082738A2F40042283D /* iExpenseApp.swift */,
+				7D69C70B2738A2F40042283D /* View-ExpenseStyling.swift */,
 				7D24E70327361C46009A3AB3 /* Assets.xcassets */,
 				7D24E70527361C46009A3AB3 /* Preview Content */,
 			);
@@ -108,6 +117,7 @@
 				TargetAttributes = {
 					7D24E6FB27361C45009A3AB3 = {
 						CreatedOnToolsVersion = 13.1;
+						LastSwiftMigration = 1310;
 					};
 				};
 			};
@@ -146,11 +156,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7D24E71027374B06009A3AB3 /* Expenses.swift in Sources */,
-				7D24E70227361C45009A3AB3 /* ContentView.swift in Sources */,
-				7D24E71227375263009A3AB3 /* AddView.swift in Sources */,
-				7D24E70E27374A62009A3AB3 /* ExpenseItem.swift in Sources */,
-				7D24E70027361C45009A3AB3 /* iExpenseApp.swift in Sources */,
+				7D69C7102738A2F40042283D /* iExpenseApp.swift in Sources */,
+				7D69C70F2738A2F40042283D /* ExpenseSection.swift in Sources */,
+				7D69C7122738A2F40042283D /* ContentView.swift in Sources */,
+				7D69C70E2738A2F40042283D /* Expenses.swift in Sources */,
+				7D69C7112738A2F40042283D /* FormatStyle-LocalCurrency.swift in Sources */,
+				7D69C70D2738A2F40042283D /* AddView.swift in Sources */,
+				7D69C7132738A2F40042283D /* View-ExpenseStyling.swift in Sources */,
+				7D69C70C2738A2F40042283D /* ExpenseItem.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -278,6 +291,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"iExpense/Preview Content\"";
@@ -297,6 +311,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.jamesonhurst.iExpense;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -307,6 +322,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"iExpense/Preview Content\"";

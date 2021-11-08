@@ -2,7 +2,7 @@
 //  AddView.swift
 //  iExpense
 //
-//  Created by Jameson Hurst on 11/6/21.
+//  Created by Jameson Hurst on 11/5/21.
 //
 
 import SwiftUI
@@ -10,28 +10,25 @@ import SwiftUI
 struct AddView: View {
     @ObservedObject var expenses: Expenses
     @Environment(\.dismiss) var dismiss
-    
+
     @State private var name = ""
     @State private var type = "Personal"
     @State private var amount = 0.0
-    
-    
-    
+
     let types = ["Business", "Personal"]
-    
-    
+
     var body: some View {
         NavigationView {
             Form {
                 TextField("Name", text: $name)
-                
+
                 Picker("Type", selection: $type) {
                     ForEach(types, id: \.self) {
                         Text($0)
                     }
                 }
-                
-                TextField("Amount", value: $amount, format: .currency(code: "USD"))
+
+                TextField("Amount", value: $amount, format: .localCurrency)
                     .keyboardType(.decimalPad)
             }
             .navigationTitle("Add new expense")
