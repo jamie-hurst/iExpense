@@ -11,7 +11,7 @@ struct ExpenseSection: View {
     let title: String
     let expenses: [ExpenseItem]
     let deleteItems: (IndexSet) -> Void
-
+    
     var body: some View {
         Section(title) {
             ForEach(expenses) { item in
@@ -21,11 +21,23 @@ struct ExpenseSection: View {
                             .font(.headline)
                         Text(item.type)
                     }
-
+                    
                     Spacer()
-
+                    
+                    Group {
+                        if item.amount < 10 {
+                            Image(systemName: "circle.fill")
+                                .foregroundColor(.green)
+                        } else if item.amount < 100 {
+                            Image(systemName: "circle.fill")
+                                .foregroundColor(.yellow)
+                        } else {
+                            Image(systemName: "circle.fill")
+                                .foregroundColor(.red)
+                        }
+                    }
+                    
                     Text(item.amount, format: .localCurrency)
-                        .style(for: item)
                 }
             }
             .onDelete(perform: deleteItems)

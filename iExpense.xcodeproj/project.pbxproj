@@ -17,6 +17,7 @@
 		7D69C7112738A2F40042283D /* FormatStyle-LocalCurrency.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D69C7092738A2F40042283D /* FormatStyle-LocalCurrency.swift */; };
 		7D69C7122738A2F40042283D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D69C70A2738A2F40042283D /* ContentView.swift */; };
 		7D69C7132738A2F40042283D /* View-ExpenseStyling.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D69C70B2738A2F40042283D /* View-ExpenseStyling.swift */; };
+		7DC4CC52274F645900A8AB51 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 7DC4CC51274F645900A8AB51 /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +32,7 @@
 		7D69C7092738A2F40042283D /* FormatStyle-LocalCurrency.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "FormatStyle-LocalCurrency.swift"; sourceTree = "<group>"; };
 		7D69C70A2738A2F40042283D /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		7D69C70B2738A2F40042283D /* View-ExpenseStyling.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "View-ExpenseStyling.swift"; sourceTree = "<group>"; };
+		7DC4CC51274F645900A8AB51 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +49,7 @@
 		7D24E6F327361C45009A3AB3 = {
 			isa = PBXGroup;
 			children = (
+				7DC4CC51274F645900A8AB51 /* README.md */,
 				7D24E6FE27361C45009A3AB3 /* iExpense */,
 				7D24E6FD27361C45009A3AB3 /* Products */,
 			);
@@ -144,6 +147,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7DC4CC52274F645900A8AB51 /* README.md in Resources */,
 				7D24E70727361C46009A3AB3 /* Preview Assets.xcassets in Resources */,
 				7D24E70427361C46009A3AB3 /* Assets.xcassets in Resources */,
 			);
