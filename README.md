@@ -4,6 +4,5 @@
 An expense tracker that separates personal costs from business costs. 
 
 
-https://user-images.githubusercontent.com/28959624/140862490-7c122a29-1344-4a93-beba-9a4a06dbe5f5.mov
-
+<img width="396" alt="iExpense" src="https://user-images.githubusercontent.com/28959624/143391506-8f756c47-2135-4309-a50d-7fe38bd72fd5.png">
 
